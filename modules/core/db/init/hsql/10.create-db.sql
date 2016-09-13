@@ -9,7 +9,7 @@ create table EXAMPLEDBSCRIPTS_A (
     DELETE_TS timestamp,
     DELETED_BY varchar(50),
     --
-    A varchar(255),
+    D varchar(255),
     B varchar(255),
     --
     primary key (ID)

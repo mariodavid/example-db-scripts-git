@@ -10,19 +10,21 @@ import com.haulmont.cuba.core.entity.StandardEntity;
 public class A extends StandardEntity {
     private static final long serialVersionUID = 7626553409394199025L;
 
-    @Column(name = "A")
-    protected String a;
+    @Column(name = "D")
+    protected String d;
 
     @Column(name = "B")
     protected String b;
 
-    public void setA(String a) {
-        this.a = a;
+
+    public void setD(String d) {
+        this.d = d;
     }
 
-    public String getA() {
-        return a;
+    public String getD() {
+        return d;
     }
+
 
     public void setB(String b) {
         this.b = b;
